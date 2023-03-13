@@ -1,0 +1,429 @@
+*{
+ margin: 0;
+}
+
+body{
+ font-family: 'Lato', sans-serif;
+}
+
+ul{
+ padding-left: 0;
+}
+
+li{
+ list-style-type: none;
+ margin: 25px 0;
+}
+
+
+.header{
+ padding: 15px 0;
+}
+
+.container{
+ max-width: 1250px;
+ margin: 0 auto;
+ padding: 0 15px;
+}
+
+.header__cart{
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ font-size: 12px;
+}
+
+.cart__img{
+ margin-right: 10px;
+}
+
+.cart__text{
+ font-size: 14px;
+}
+
+.cart__quantity{
+ color: #797B86;
+}
+
+.cart__quantity span{
+ margin-right: 4px;
+}
+
+.cart__fullprice span{
+ margin-right: 4px;
+}
+
+.location{
+ margin: 30px 0 60px;
+ font-size: 14px;
+}
+
+.location img{
+ margin: 0 10px;
+}
+
+.location span{
+ color: #797B86;
+}
+
+.cart-wrapper{
+ display: flex;
+}
+
+.cart-content{
+ width: 70%;
+ margin-right: 27px;
+}
+
+.cart-total{
+ width: 30%;
+ padding: 35px 30px;
+ margin-left: 28px;
+ background: #F6F8FA;
+ border-radius: 5px;
+
+}
+
+.cart-about{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.cart-about__name{
+ font-weight: 700;
+ font-size: 44px;
+}
+
+.art-about__count{
+ font-weight: 400;
+ font-size: 18px;
+ color: #797B86;
+}
+
+.cart-about__clear{
+ font-weight: 400;
+ font-size: 14px;
+ cursor: pointer;
+ text-decoration-line: underline;
+ color: #797B86;
+}
+
+.product{
+ position: relative;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.wrapper{
+max-width: 263px;
+}
+
+.control{
+ display: flex;
+ align-items: center;
+}
+
+.product__name{
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 145%
+}
+
+.product__description{
+ margin: 6px 0 7px;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 150%;
+}
+
+.product__article{
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 150%;
+ color: #797B86;
+}
+
+.control__minus, .control__plus{
+ padding: 17px 12px;
+ background: #F6F8FA;
+ cursor: pointer;
+}
+
+.control__minus{
+ border-top-left-radius: 4px;
+ border-bottom-left-radius: 4px;
+}
+
+.control__plus{
+ border-top-right-radius: 4px;
+ border-bottom-right-radius: 4px;
+}
+
+.control__quantity{
+ margin: 0 2px;
+ padding: 16px 12px;
+ background: #F6F8FA;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 150%
+}
+
+.cart-about__count{
+ margin-right: 200px;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 145%;
+ color: #797B86;
+}
+
+.product_sell{
+ font-weight: 500;
+ font-size: 18px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.price{
+ margin-top: 8px;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 145%;
+ text-align: center;
+ display: none;
+}
+
+.product_close{
+ position: absolute;
+ top: 0;
+ right: 0;
+ cursor: pointer;
+}
+
+hr{
+ margin-top: 10px;
+ display: block;
+ height: 1px;
+ background-color: #C4C4C4;;
+ width: 100%;
+ border: 0;
+}
+
+.cart-installation{
+ width: 90%;
+ padding: 28px 43px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background: #F6F8FA;
+ border-radius: 5px;
+}
+
+#cart-installation__input{
+ width: 20px;
+ height: 20px;
+}
+
+.cart-installation__img{
+ margin: 0 20px;
+}
+
+.cart-installation__wrap{
+ display: flex;
+ flex-direction: column;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 145%;
+}
+
+.cart-installation__check{
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 150%;
+ color: #797B86;
+}
+
+.cart-total__amount, .cart-total__count, .cart-total__installation, .cart-total__summ{
+ display: flex;
+ justify-content: space-between;
+}
+
+button{
+ width: 100%;
+}
+
+.line-section{
+ margin-top: 35px;
+}
+
+.cart-total{
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 145%
+}
+
+.cart-total__amount{
+ margin-top: 31px;
+}
+
+.cart-total__count, .cart-total__installation{
+ margin-top: 17px;
+}
+
+.cart-total__name{
+ font-weight: 600;
+ font-size: 24px;
+ line-height: 120.52%;
+}
+
+.cart-total__line{
+ margin: 28px 0 10px;
+}
+
+.summ-name{
+ font-weight: 600;
+ font-size: 18px;
+ line-height: 145%
+}
+
+.summ-result{
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 130%;
+ letter-spacing: 0.005em;
+}
+
+.cart-total-btn{
+ padding: 14px 40px;
+ border-radius: 4px;
+ font-weight: 600;
+ font-size: 18px;
+ border: 1px solid #0069B4;
+}
+
+.order{
+ cursor: pointer;
+ margin-top: 30px;
+ color: #FFFFFF;
+ background: #0069B4;
+}
+
+.buy{
+ margin-top: 12px;
+ color: #0069B4;
+ background: #FFFFFF;
+}
+
+.viewed-products{
+ padding-top: 60px;
+ padding-bottom: 116px;
+}
+
+.mySwiper-wrapper__name{
+ font-weight: 600;
+font-size: 30px;
+line-height: 120.52%;
+}
+
+.mySwiper-wrapper{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.swiper-control{
+ display: flex;
+ align-items: center;
+ margin: 60px 0;
+}
+
+.swiper-pagination{
+ position: relative;
+ bottom: 0;
+ width: auto;
+}
+
+.swiper-buttons-next, .swiper-buttons-prev{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+ width: 50px;
+ background-color:#90A2B5;
+ border-radius: 50%;
+ cursor: pointer;
+}
+
+.swiper-buttons-prev img{
+ transform: rotate(180deg);
+}
+
+.swiper-pagination-current{
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+color: #212121;
+}
+
+.swiper-pagination{
+ color: #797B86;
+ margin: 0 15px;
+}
+
+.swiper-pagination-total{
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 150%;
+}
+
+.swiper-slide__name{
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 120.52%;
+}
+
+.swiper-slide__description{
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 145%;
+}
+
+.swiper-slide__price{
+ margin-top: 59px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 500;
+font-size: 22px;
+line-height: 130%;
+letter-spacing: 0.005em;
+}
+
+.swiper-slide__currency{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 145%;
+}
+
+.swiper-slide__wrapper:first-child{
+ margin-left: 0;
+}
+
+
+.swiper-slide__wrapper{
+ padding: 25px;
+ margin: 0 10px;
+ background-color: #F6F8FA;
+}
+
+.swiper-slide__btn{
+ padding: 15px 50px;
+ margin-top: 20px;
+ background: #0069B4;
+ border-radius: 4px;
+ border: none;
+ font-weight: 600;
+font-size: 16px;
+line-height: 145%;
+color: #FFFFFF;
+}
